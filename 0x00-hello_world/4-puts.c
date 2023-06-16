@@ -1,4 +1,7 @@
 #include<stdio.h>
+/**
+ * This is main function an enty point for all c code
+ */
 int main(void)
 {
 	/**
