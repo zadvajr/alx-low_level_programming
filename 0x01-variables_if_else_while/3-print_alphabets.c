@@ -8,6 +8,7 @@ int main(void)
 {
 	int n;
 	int m;
+
 	for (n = 97; n <= 122; n++)
 	{
 		putchar(n);
@@ -17,6 +18,5 @@ int main(void)
 		putchar(m);
 	}
 	putchar(10);
-	
 	return (0);
 }
