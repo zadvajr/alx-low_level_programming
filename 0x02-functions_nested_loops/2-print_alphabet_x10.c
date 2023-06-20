@@ -1,9 +1,12 @@
 #include "main.h"
+
 /**
- * main - Entry Point
+ * main - function code to print alphabets 10 times
  *
- * Return: Always 0 (Success)
+ * Return: Returns nothing void (Success)
+ *
  */
+
 void print_alphabet_x10(void)
 {
 	char i;
