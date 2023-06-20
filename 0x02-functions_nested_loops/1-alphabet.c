@@ -3,6 +3,8 @@
  * main - Entry Point
  *
  * Return: Always 0 (Success)
+ * print_alphabet() is function that prints alphabets in lower case
+ *
  */
 void print_alphabet(void)
 {
