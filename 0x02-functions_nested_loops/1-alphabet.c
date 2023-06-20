@@ -1,11 +1,12 @@
 #include "main.h"
+
 /**
- * main - Entry Point
+ * print_alphabet - function code that prints alphabet in lower case
  *
- * Return: Always 0 (Success)
- * print_alphabet() is function that prints alphabets in lower case
- *
+ * Return: always 0;
  */
+
+
 void print_alphabet(void)
 {
 	char i;
