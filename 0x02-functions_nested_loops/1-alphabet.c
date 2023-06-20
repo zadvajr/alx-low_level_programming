@@ -1,12 +1,10 @@
 #include "main.h"
 /**
- * main -Entry Point
- *
- * Return: Always 0 (Success)
- *
  * Function code that prints alphabets in lowercase
  *
+ * Return value is void
  */
+
 void print_alphabet(void)
 {
 	char i;
