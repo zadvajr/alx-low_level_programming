@@ -3,9 +3,10 @@
  * main - Entry Point
  *
  * Return: Always 0 (Success)
- * c source code to pritn "_putchar"
+ *
+ * _putchar example
  */
-int main (void)
+int main(void)
 {
 	_putchar('_');
 	_putchar('p');
