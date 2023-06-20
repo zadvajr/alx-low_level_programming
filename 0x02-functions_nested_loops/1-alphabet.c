@@ -4,9 +4,9 @@
  *
  * Return: Always 0 (Success)
  *
- * Prints alphabets in lowercase
+ * Function code that prints alphabets in lowercase
+ *
  */
-
 void print_alphabet(void)
 {
 	char i;
