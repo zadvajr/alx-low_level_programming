@@ -1,7 +1,9 @@
 #include "main.h"
 /**
- * _isalpha - function accepts one parameter and returns 1 if it is an alphabet or otherwise 0
+ * _isalpha - function accepts one parameter and
+ * returns 1 if it is an alphabet or otherwise 0
  *
+ * @c: parameter to the function
  * Return: Always integer value
  *
  */
