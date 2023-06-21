@@ -12,11 +12,9 @@ int _abs(int r)
 	{
 		r = -(r);
 	}
-
 	else
 	{
 		r = r;
 	}
-	
 	return (r);
 }
