@@ -19,7 +19,14 @@ void print_to_98(int n)
 	{
 		for (i = n; i <= limit; i++)
 		{
-			printf("%d, ", i);
+			if (i == limit)
+			{
+				printf("%d", i);
+			}
+			else
+			{
+				printf("%d, ", i);
+			}
 		}
 	}
 
@@ -27,7 +34,15 @@ void print_to_98(int n)
 	{
 		for (j = n; j >= limit; j--)
 		{
-			printf("%d, ", j);
+			if (j == limit)
+			{
+				printf("%d", j);
+			}
+			else
+			{
+				printf("%d, ", j);
+			}
+			
 		}
 	}
 }
