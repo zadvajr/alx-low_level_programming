@@ -2,8 +2,8 @@
 /**
  * swap_int - swaps values of integer variables
  *
- * @a - points to value address of a
- * @b - points to value addrss of b
+ * @a: - points to value address of a
+ * @b: - points to value addrss of b
  *
  * Return: Returns void
  *
