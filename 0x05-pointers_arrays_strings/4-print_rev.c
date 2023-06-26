@@ -22,7 +22,7 @@ void print_rev(char *s)
 		i++;
 	}
 
-	j = count;
+	j = count - 1;
 
 	while (s[j] != '\0')
 	{
