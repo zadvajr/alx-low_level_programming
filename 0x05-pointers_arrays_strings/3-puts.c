@@ -2,7 +2,7 @@
 /**
  * _puts - prints string to std out
  *
- * @s: single parameter passed as pointer
+ * @str: single parameter passed as pointer
  *
  * Return: Always returns void
  *
