@@ -7,7 +7,7 @@
  * Return: Always void
  *
  */
-void print_rev (char *s)
+void print_rev(char *s)
 {
 	int i;
 	int count;
@@ -19,6 +19,7 @@ void print_rev (char *s)
 	while (s[i] != '\0')
 	{
 		count += 1;
+		i++;
 	}
 
 	j = count;
