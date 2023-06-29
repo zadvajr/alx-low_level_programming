@@ -2,6 +2,10 @@
 /**
  * _strncat - concatenates n bytes of strings
  *
+ * @dest: destination parameter
+ * @src: source parameter
+ * @n: number of bytes to be copied
+ *
  * Return: Always Returns character array
  *
  */
