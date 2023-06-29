@@ -12,7 +12,7 @@ char *_strcat(char *dest, char *src)
 {
 	int i;
 	int j;
-	char tmp[100];
+	char tmp[1000];
 
 	i = 0;
 	j = 0;
