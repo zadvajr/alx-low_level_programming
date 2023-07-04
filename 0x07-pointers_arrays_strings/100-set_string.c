@@ -5,7 +5,6 @@
  * @s: double pointer parameter
  * @to: string to be set 
  *
- * Return: Always 0.
  *
  */
 void set_string(char **s, char *to)
