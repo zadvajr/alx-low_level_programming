@@ -1,14 +1,13 @@
 #include <stdarg.h>
-
 /**
  * sum_them_all - returns the sum of given arguments
  *
  * @n: static variable passed
  * @...: a variable number of arguments
- * Return: Returns the sum of all the arguments passed
+ * Return: if n == 0 - 0.
+ * Otherwise the sum of all the parameters
  *
  */
-
 int sum_them_all(const unsigned int n,...)
 {
 	va_list args;
