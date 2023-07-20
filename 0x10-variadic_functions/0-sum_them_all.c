@@ -8,18 +8,18 @@
  * Otherwise the sum of all the parameters
  *
  */
-int sum_them_all(const unsigned int n,...)
+int sum_them_all(const unsigned int n, ...)
 {
 	va_list args;
 	unsigned int i;
-	unsigned int sum;
+	int sum;
 	
 	va_start (args, n);
 	
 	sum = 0;
 	for (i = 0; i < n; i++)
 	{
-		sum += va_arg (args, unsigned int);
+		sum += va_arg (args, int);
 	}
 	
 	va_end (args);
