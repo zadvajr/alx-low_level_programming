@@ -4,12 +4,12 @@
  * sum_them_all - returns the sum of given arguments
  *
  * @n: static variable passed
- *
+ * @...: a variable number of arguments
  * Return: Returns the sum of all the arguments passed
  *
  */
 
-int sum_them_all(const unsigned int n, ...)
+int sum_them_all(const unsigned int n,...)
 {
 	va_list args;
 	unsigned int i;
