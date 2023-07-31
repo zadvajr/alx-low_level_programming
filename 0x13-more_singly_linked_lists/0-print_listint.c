@@ -4,6 +4,7 @@
 /**
  * print_listint - Prints all the elements in a linked list
  * @h: Pointer to the list_t list to print
+ *
  * Return: Returns the number of nodes printed
  */
 
