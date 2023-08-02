@@ -1,10 +1,13 @@
 #include "main.h"
+
 /**
  * _pow_recursion - Computes x, to power of y
  * @x: index x 
  * @y: power y
+ *
  * Return: Returns x to power of y
  */
+
 int _pow_recursion(int x, int y)
 {
 	int r = 0;
