@@ -3,7 +3,6 @@
 /**
  * _strlen_recursion - Prints the total number of characters in a string s
  * @s: String to be passed
- * 
  * Return: On success returns 1.
  */
 int _strlen_recursion(char *s)
