@@ -11,17 +11,10 @@
 int _sqrt(int n, int g)
 {
 	if (g * g > n)
-	{
 		return (-1);
-	}
-	else if (g * g == n)
-	{
+	if (g * g == n)
 		return (1);
-	}
-	else
-	{
-		return (_sqrt(n, g+1));
-	}
+	return (_sqrt(n, g + 1));
 }
 
 /**
