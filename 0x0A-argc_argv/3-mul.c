@@ -8,16 +8,8 @@
  * Return: Returns an integer value
  */
 
-int main(int argc, char **argv __attribute__((unused)))
+int main(int argc, char **argv)
 {
-	int x = 0;
-	int y = 0;
-	int prod = 0;
-
-	x = atoi(argv[1]);
-	y = atoi(argv[2]);
-	prod = x * y;
-
 	if (argc < 2)
 	{
 		printf("Error\n");
@@ -25,11 +17,11 @@ int main(int argc, char **argv __attribute__((unused)))
 	}
 	else if (argc == 2)
 	{
-		printf("%d\n", x);
+		printf("%d\n", atoi(argv[1]));
 	}
 	else
 	{
-		printf("%d\n", prod);
+		printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
 	}
 	return (EXIT_SUCCESS);
 }
