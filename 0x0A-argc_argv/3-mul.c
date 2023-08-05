@@ -10,6 +10,14 @@
 
 int main(int argc, char **argv __attribute__((unused)))
 {
+	int x = 0;
+	int y = 0;
+	int prod = 0;
+
+	x = atoi(argv[1]);
+	y = atoi(argv[2]);
+	prod = x * y;
+
 	if (argc < 2)
 	{
 		printf("Error\n");
@@ -17,11 +25,11 @@ int main(int argc, char **argv __attribute__((unused)))
 	}
 	else if (argc == 2)
 	{
-		printf("%d\n", atoi(argv[1]));
+		printf("%d\n", x);
 	}
 	else
 	{
-		printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
+		printf("%d\n", prod);
 	}
 	return (EXIT_SUCCESS);
 }
